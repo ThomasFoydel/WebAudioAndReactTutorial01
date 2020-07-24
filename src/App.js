@@ -61,7 +61,6 @@ function App() {
         <button onClick={() => osc1.start()}>start</button>
         <button onClick={() => osc1.stop()}>stop</button>
       </div>
-
       <Osc1
         change={changeOsc1}
         settings={osc1Settings}
